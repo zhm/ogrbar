@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3373DE60147F59D100DEEE46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3373DE5F147F59D100DEEE46 /* Cocoa.framework */; };
+		3373DE6A147F59D100DEEE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3373DE68147F59D100DEEE46 /* InfoPlist.strings */; };
+		3373DE6C147F59D100DEEE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373DE6B147F59D100DEEE46 /* main.m */; };
+		3373DE70147F59D100DEEE46 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3373DE6E147F59D100DEEE46 /* Credits.rtf */; };
+		3373DE73147F59D200DEEE46 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373DE72147F59D200DEEE46 /* MCAppDelegate.m */; };
+		3373DE76147F59D200DEEE46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3373DE74147F59D200DEEE46 /* MainMenu.xib */; };
+		3373DE7E147F59D200DEEE46 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3373DE7D147F59D200DEEE46 /* SenTestingKit.framework */; };
+		3373DE7F147F59D200DEEE46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3373DE5F147F59D100DEEE46 /* Cocoa.framework */; };
+		3373DE87147F59D200DEEE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3373DE85147F59D200DEEE46 /* InfoPlist.strings */; };
+		3373DE8A147F59D200DEEE46 /* ogrbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373DE89147F59D200DEEE46 /* ogrbarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3373DE80147F59D200DEEE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3373DE52147F59D100DEEE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3373DE5A147F59D100DEEE46;
+			remoteInfo = ogrbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3373DE5B147F59D100DEEE46 /* ogrbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ogrbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3373DE5F147F59D100DEEE46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3373DE62147F59D100DEEE46 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3373DE63147F59D100DEEE46 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3373DE64147F59D100DEEE46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3373DE67147F59D100DEEE46 /* ogrbar-Info.plist */ = {isa = PBXFileReference; path = "ogrbar-Info.plist"; sourceTree = "<group>"; };
+		3373DE69147F59D100DEEE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3373DE6B147F59D100DEEE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3373DE6D147F59D100DEEE46 /* ogrbar-Prefix.pch */ = {isa = PBXFileReference; path = "ogrbar-Prefix.pch"; sourceTree = "<group>"; };
+		3373DE6F147F59D100DEEE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3373DE71147F59D100DEEE46 /* MCAppDelegate.h */ = {isa = PBXFileReference; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		3373DE72147F59D200DEEE46 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		3373DE75147F59D200DEEE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3373DE7C147F59D200DEEE46 /* ogrbarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ogrbarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3373DE7D147F59D200DEEE46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3373DE84147F59D200DEEE46 /* ogrbarTests-Info.plist */ = {isa = PBXFileReference; path = "ogrbarTests-Info.plist"; sourceTree = "<group>"; };
+		3373DE86147F59D200DEEE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3373DE88147F59D200DEEE46 /* ogrbarTests.h */ = {isa = PBXFileReference; path = ogrbarTests.h; sourceTree = "<group>"; };
+		3373DE89147F59D200DEEE46 /* ogrbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ogrbarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3373DE58147F59D100DEEE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373DE60147F59D100DEEE46 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3373DE78147F59D200DEEE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373DE7E147F59D200DEEE46 /* SenTestingKit.framework in Frameworks */,
+				3373DE7F147F59D200DEEE46 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3373DE50147F59D100DEEE46 = {
+			isa = PBXGroup;
+			children = (
+				3373DE65147F59D100DEEE46 /* ogrbar */,
+				3373DE82147F59D200DEEE46 /* ogrbarTests */,
+				3373DE5E147F59D100DEEE46 /* Frameworks */,
+				3373DE5C147F59D100DEEE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3373DE5C147F59D100DEEE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE5B147F59D100DEEE46 /* ogrbar.app */,
+				3373DE7C147F59D200DEEE46 /* ogrbarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3373DE5E147F59D100DEEE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE5F147F59D100DEEE46 /* Cocoa.framework */,
+				3373DE7D147F59D200DEEE46 /* SenTestingKit.framework */,
+				3373DE61147F59D100DEEE46 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3373DE61147F59D100DEEE46 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE62147F59D100DEEE46 /* AppKit.framework */,
+				3373DE63147F59D100DEEE46 /* CoreData.framework */,
+				3373DE64147F59D100DEEE46 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3373DE65147F59D100DEEE46 /* ogrbar */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE71147F59D100DEEE46 /* MCAppDelegate.h */,
+				3373DE72147F59D200DEEE46 /* MCAppDelegate.m */,
+				3373DE74147F59D200DEEE46 /* MainMenu.xib */,
+				3373DE66147F59D100DEEE46 /* Supporting Files */,
+			);
+			path = ogrbar;
+			sourceTree = "<group>";
+		};
+		3373DE66147F59D100DEEE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE67147F59D100DEEE46 /* ogrbar-Info.plist */,
+				3373DE68147F59D100DEEE46 /* InfoPlist.strings */,
+				3373DE6B147F59D100DEEE46 /* main.m */,
+				3373DE6D147F59D100DEEE46 /* ogrbar-Prefix.pch */,
+				3373DE6E147F59D100DEEE46 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3373DE82147F59D200DEEE46 /* ogrbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE88147F59D200DEEE46 /* ogrbarTests.h */,
+				3373DE89147F59D200DEEE46 /* ogrbarTests.m */,
+				3373DE83147F59D200DEEE46 /* Supporting Files */,
+			);
+			path = ogrbarTests;
+			sourceTree = "<group>";
+		};
+		3373DE83147F59D200DEEE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3373DE84147F59D200DEEE46 /* ogrbarTests-Info.plist */,
+				3373DE85147F59D200DEEE46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3373DE5A147F59D100DEEE46 /* ogrbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3373DE8D147F59D200DEEE46 /* Build configuration list for PBXNativeTarget "ogrbar" */;
+			buildPhases = (
+				3373DE57147F59D100DEEE46 /* Sources */,
+				3373DE58147F59D100DEEE46 /* Frameworks */,
+				3373DE59147F59D100DEEE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ogrbar;
+			productName = ogrbar;
+			productReference = 3373DE5B147F59D100DEEE46 /* ogrbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3373DE7B147F59D200DEEE46 /* ogrbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3373DE90147F59D200DEEE46 /* Build configuration list for PBXNativeTarget "ogrbarTests" */;
+			buildPhases = (
+				3373DE77147F59D200DEEE46 /* Sources */,
+				3373DE78147F59D200DEEE46 /* Frameworks */,
+				3373DE79147F59D200DEEE46 /* Resources */,
+				3373DE7A147F59D200DEEE46 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3373DE81147F59D200DEEE46 /* PBXTargetDependency */,
+			);
+			name = ogrbarTests;
+			productName = ogrbarTests;
+			productReference = 3373DE7C147F59D200DEEE46 /* ogrbarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3373DE52147F59D100DEEE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3373DE55147F59D100DEEE46 /* Build configuration list for PBXProject "ogrbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3373DE50147F59D100DEEE46;
+			productRefGroup = 3373DE5C147F59D100DEEE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3373DE5A147F59D100DEEE46 /* ogrbar */,
+				3373DE7B147F59D200DEEE46 /* ogrbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3373DE59147F59D100DEEE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373DE6A147F59D100DEEE46 /* InfoPlist.strings in Resources */,
+				3373DE70147F59D100DEEE46 /* Credits.rtf in Resources */,
+				3373DE76147F59D200DEEE46 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3373DE79147F59D200DEEE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373DE87147F59D200DEEE46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3373DE7A147F59D200DEEE46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3373DE57147F59D100DEEE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373DE6C147F59D100DEEE46 /* main.m in Sources */,
+				3373DE73147F59D200DEEE46 /* MCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3373DE77147F59D200DEEE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373DE8A147F59D200DEEE46 /* ogrbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3373DE81147F59D200DEEE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3373DE5A147F59D100DEEE46 /* ogrbar */;
+			targetProxy = 3373DE80147F59D200DEEE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3373DE68147F59D100DEEE46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3373DE69147F59D100DEEE46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3373DE6E147F59D100DEEE46 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3373DE6F147F59D100DEEE46 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3373DE74147F59D200DEEE46 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3373DE75147F59D200DEEE46 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3373DE85147F59D200DEEE46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3373DE86147F59D200DEEE46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3373DE8B147F59D200DEEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3373DE8C147F59D200DEEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3373DE8E147F59D200DEEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogrbar/ogrbar-Prefix.pch";
+				INFOPLIST_FILE = "ogrbar/ogrbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3373DE8F147F59D200DEEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogrbar/ogrbar-Prefix.pch";
+				INFOPLIST_FILE = "ogrbar/ogrbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3373DE91147F59D200DEEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ogrbar.app/Contents/MacOS/ogrbar";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogrbar/ogrbar-Prefix.pch";
+				INFOPLIST_FILE = "ogrbarTests/ogrbarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3373DE92147F59D200DEEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ogrbar.app/Contents/MacOS/ogrbar";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogrbar/ogrbar-Prefix.pch";
+				INFOPLIST_FILE = "ogrbarTests/ogrbarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3373DE55147F59D100DEEE46 /* Build configuration list for PBXProject "ogrbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3373DE8B147F59D200DEEE46 /* Debug */,
+				3373DE8C147F59D200DEEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3373DE8D147F59D200DEEE46 /* Build configuration list for PBXNativeTarget "ogrbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3373DE8E147F59D200DEEE46 /* Debug */,
+				3373DE8F147F59D200DEEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3373DE90147F59D200DEEE46 /* Build configuration list for PBXNativeTarget "ogrbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3373DE91147F59D200DEEE46 /* Debug */,
+				3373DE92147F59D200DEEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3373DE52147F59D100DEEE46 /* Project object */;
+}
