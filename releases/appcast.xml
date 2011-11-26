@@ -14,5 +14,17 @@
       <pubDate>Fri, 25 Nov 2011 19:20:11 +0000</pubDate>
       <enclosure url="https://raw.github.com/zhm/ogrbar/master/releases/ogrbar_1.0.zip" sparkle:version="1.0" length="442858" type="application/octet-stream"/>
     </item>
+    <item>
+      <title>Version 1.0.1</title>
+      <description>
+        <![CDATA[
+            <h2>Fixed project settings and testing auto update!</h2>
+        ]]>
+      </description>
+      <pubDate>Fri, 25 Nov 2011 20:20:11 +0000</pubDate>
+      <enclosure url="https://raw.github.com/zhm/ogrbar/master/releases/ogrbar_1.0.1.zip" sparkle:version="1.0.1" length="443458" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
+
+
