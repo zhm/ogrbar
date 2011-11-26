@@ -1,0 +1,19 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>OGRBar Changelog</title>
+    <link>https://raw.github.com/zhm/ogrbar/releases/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <description>
+        <![CDATA[
+            <h2>First release!</h2>
+        ]]>
+      </description>
+      <sparkle:releaseNotesLink>https://raw.github.com/zhm/ogrbar/releases/1.0.0.html</sparkle:releaseNotesLink>
+      <pubDate>Fri, 25 Nov 2011 19:20:11 +0000</pubDate>
+      <enclosure url="https://raw.github.com/zhm/ogrbar/releases/ogrbar_1.0.zip" sparkle:version="1.0" length="1600000" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
